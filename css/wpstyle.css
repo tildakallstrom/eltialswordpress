@@ -1,0 +1,228 @@
+.is-style-outline>:where(.wp-block-button__link), :where(.wp-block-button__link).is-style-outline {
+    border: none!important;
+    padding: 0.667em 1.333em!important;
+}
+.wpimglogo, .wp-image-184, .wp-image-183 {
+	max-width: 45px!important;
+	height: auto!important;
+	margin: auto!important;
+	margin-left: 1em!important;
+	margin-top: -1em!important;
+}
+
+
+.wp-image-231 {
+  width: 100%;
+	max-width: 1500px!important;
+	margin: auto!important;
+}
+/*
+.wp-block-group__inner-container p {
+	margin-left: -4em!important;
+} */
+#block-4 {
+	margin-left: 5em!important;
+}
+#block-3 {
+	margin-top: -2em!important;
+}
+
+
+.wp-image-303, .wp-image-304 {
+	max-width: 50px!important;
+}
+ 
+.wp-block-image {
+	padding-bottom: 0px!important;
+	margin-bottom: -3em!important;
+}
+.wp-image-304 {
+	max-width: 30px!important;
+}
+.pleft {
+	margin-left: -1em!important;
+	margin-top: -3em!important;
+	padding-bottom: 1em!important;
+}
+.vp-portfolio.vp-portfolio__ready .vp-portfolio__items-wrap, .vp-portfolio.vp-portfolio__ready .vp-portfolio__thumbnails-wrap, .vp-portfolio.vp-portfolio__ready .vp-portfolio__layout-elements {
+   
+    max-width: 1000px!important;
+	width: 100%!important;
+    margin: auto!important;
+	
+}
+.wp-image-402, .wp-image-416, .wp-image-430, .wp-image-434, .wp-image-438, .wp-image-212{
+	max-width: 70%!important;
+	margin: auto!important;
+	margin-left: 15%!important;
+	margin-top: 2em!important;
+}
+.wp-image-524, .wp-image-526 {
+	width: 50%!important;
+}
+ .smallcolumn {
+	 max-width: 100px!important;
+	 margin: auto!important;
+      margin-top: 2em!important;
+  }
+.wp-image-145 {
+	max-width: 42px!important;
+	margin-top: 2px;
+}
+.wp-image-204 {
+	max-width: 40px!important;
+	margin-left: 80%!important;
+}
+
+@media only screen and (max-width: 880px) {
+
+	.wp-block-image {
+	margin-bottom: 1em!important;
+}
+	.wpbtn {
+		margin-top: -10em!important;
+	}
+	
+}
+
+
+@media only screen and (min-width: 750px) {
+.wp-image-483 {
+	margin-top: 6em!important;
+}
+	.wp-image-401 {
+		margin-top: 2em!important;
+	}
+}
+
+
+@media only screen and (max-width: 900px) {
+		.wp-block-image {
+	margin-bottom: 1em!important;
+}
+}
+@media only screen and (min-width: 900px) {
+		.wp-block-image {
+	margin-bottom: -6em!important;
+}
+}
+
+.woocommerce a.button, .back {
+	background-color:  #546553;
+	color: white;
+}
+.column90 {
+	max-width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.price {
+	font-size: 1em!important;
+	margin-left: -0.2em;
+}
+.cart .button {
+	margin-top: 1em!important;
+	background-color: #546553!important;
+	color: white;
+}
+.posted_in {
+	margin-left: 1em;
+	font-family: "Lato", sans-serif;
+}
+
+.gridfooter {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    width: 100%;
+}
+.leftline, .rightline {
+    border-bottom: solid 1px black;
+    width: 100%;
+    margin-top: -1em;
+}
+.rightline {
+	margin-left: 150%;
+	margin-right: -10em;
+}
+@media only screen and (max-width: 480px) {
+	.rightline {
+	margin-left: 230%;
+	margin-right: -10em;
+}
+	
+}
+@media only screen and (min-width: 770px) {
+	.wp-image-723 {
+		margin-top: 5em!important;
+	}
+}
+@media only screen and (max-width:500px) {
+	.rightfooterw  {
+		margin-top: -5em!important;
+	}
+	.rightfooterw div div h3 {
+		padding-bottom: 1em;
+		text-align: left;
+		margin-left: 2.2em!important;
+	}
+	.rightfooterw div div ul {
+		margin-left: 1em!important;
+		line-height: 1.5em;
+		padding-bottom: 6em;
+	}
+	.leftfooterw h3 {
+		
+		text-align: left;
+		margin-left: 2.2em!important;
+	}
+	.leftfooterw p {
+		margin-left: 1.3em;
+	}
+	.leftfooterw .wp-block-contact-form-7-contact-form-selector {
+		margin-left: -1.2em;
+	}
+}
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+	.rightfooterw  {
+		margin-top: -5em!important;
+		padding-bottom: 4em;
+	}
+	.rightfooterw div div h3 {
+		padding-bottom: 0.5em;
+	}
+	.rightfooterw div div ul {
+		margin-left: -2.2em!important;
+		line-height: 1.5em;
+	}
+	.leftfooterw h3 {
+		margin-left: -2em;
+	}
+	.leftfooterw p {
+		margin-left: -3.3em;
+	}
+	.leftfooterw .wp-block-contact-form-7-contact-form-selector {
+		margin-left: -1.5em!important;
+	}
+}
+@media only screen and (min-width: 900px) {
+	.rightfooterw  {
+		margin-top: -13em!important;
+	}
+	.rightfooterw div div h3 {
+		padding-bottom: 1em;
+	}
+	.rightfooterw div div ul {
+		margin-left: -1em!important;
+		line-height: 1.5em;
+	}
+	.leftfooterw h3 {
+		margin-left: 2em;
+	}
+	.leftfooterw p {
+		margin-left: 1.3em;
+	}
+	.leftfooterw .wp-block-contact-form-7-contact-form-selector {
+		margin-left: -1.2em;
+	}
+}
+
