@@ -470,6 +470,32 @@ bdi {
     margin-bottom: 1em;
     margin-left: -1em;
 }
+.is-style-outline>:where(.wp-block-button__link),
+:where(.wp-block-button__link).is-style-outline {
+    border: none;
+    padding: 0.667em 1.333em;
+}
+
+.pleft {
+    margin-left: -1em;
+    margin-top: -3em;
+    padding-bottom: 1em;
+}
+
+.vp-portfolio.vp-portfolio__ready .vp-portfolio__items-wrap,
+.vp-portfolio.vp-portfolio__ready .vp-portfolio__thumbnails-wrap,
+.vp-portfolio.vp-portfolio__ready .vp-portfolio__layout-elements {
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+}
+
+.smallcolumn {
+    max-width: 100px;
+    margin: auto;
+    margin-top: 2em;
+}
+
 
 @media only screen and (max-width: 480px) {
 
