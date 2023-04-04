@@ -1,15 +1,10 @@
-<?php get_header(); ?>
-
-
-<?php
+<?php get_header(); 
 if (have_posts()) {
 
     the_post();
     the_content();
 }
 
-?>
-<?php
 query_posts('posts_per_page=20');
 if (have_posts()) {
     while (have_posts()) {
@@ -24,14 +19,10 @@ if (have_posts()) {
                 <?php if (has_post_thumbnail()) {
                     the_post_thumbnail();
                 } ?> </div><br>
-            <!--    <a href=" // the_permalink();  " class="readmore">Läs mer...</a><br><br> -->
         </article>
 <?php
     }
 }
 ?>
-
-
-
 
 <?php get_footer(); ?>

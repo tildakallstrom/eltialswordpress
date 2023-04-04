@@ -19,8 +19,6 @@ body {
     min-height: 100vh;
 }
 
-/* header and heroimg */
-
 .wp-block-button {
     border: none;
     border-radius: 40px;
@@ -55,15 +53,12 @@ li a {
     text-decoration: underline;
 }
 
-/*section to move footer down*/
 .nocut {
     display: flex;
     flex-direction: column;
     column-width: 100%;
     width: 100%;
 }
-
-/*text, fonts*/
 
 h3 {
     font-family: 'IBM Plex Serif', serif;
@@ -105,7 +100,6 @@ strong {
     font-weight: bold;
 }
 
-/*kittenspage*/
 p,
 .pul,
 .pli {
@@ -119,7 +113,6 @@ p,
     max-width: 50ch;
     margin: auto;
     font-family: 'Lato', sans-serif;
-
 }
 
 #pul li {
@@ -136,7 +129,6 @@ p,
     margin-bottom: 4em;
 }
 
-/*formulär*/
 form {
     margin: auto;
     max-width: 400px;
@@ -144,7 +136,6 @@ form {
 
 label {
     font-family: 'Lato', Sans-serif;
-
 }
 
 .wrap {
@@ -153,7 +144,6 @@ label {
     background-color: #F1F1E8;
 }
 
-/* footer styling*/
 .gridfooter {
     display: grid;
     grid-template-columns: 1fr 0.5fr 1fr;
@@ -176,7 +166,6 @@ label {
 }
 
 footer {
-    /*background-color: rgb(5, 5, 5, 0.2);*/
     background-color: #f5f5f1;
     color: black;
     margin-bottom: -1em;
@@ -198,7 +187,6 @@ input[type=submit],
 label {
     max-width: 400px;
     margin: auto;
-
 }
 
 .bottomfooter {
@@ -225,7 +213,6 @@ label {
     font-size: 1.4rem;
 }
 
-/* footermenu */
 .menu-item-126 a,
 .menu-item-127 a,
 .menu-item-128 a,
@@ -350,18 +337,14 @@ input[type=submit]:hover {
     margin: auto;
 }
 
-/*widget i footer*/
-
 .widget2 {
     margin-top: 11.5em;
 }
 
 .readmore:hover {
     background-color: #38613b;
-
 }
 
-/*wp-element*/
 .ahbfield_service {
     max-width: 300px !important;
 }
@@ -370,7 +353,6 @@ input[type=submit]:hover {
     width: 300px;
 }
 
-/*index content */
 .wp-image-139,
 .wp-block-image,
 .size-full,
@@ -403,11 +385,9 @@ figure {
 
 article a {
     margin-left: 80%;
-
     color: black;
 }
 
-/*tillbakaknapp single.php*/
 .back {
     min-width: 200px;
     max-width: 400px;
@@ -434,14 +414,12 @@ article a {
     color: black;
 }
 
-/* göm */
 #wp-calendar {
     display: none;
 }
 
 #h3foot1 {
     margin-top: -7.8em;
-
 }
 
 .has-black-color a:hover {
@@ -469,6 +447,7 @@ bdi {
     margin-bottom: 1em;
     margin-left: -1em;
 }
+
 .is-style-outline>:where(.wp-block-button__link),
 :where(.wp-block-button__link).is-style-outline {
     border: none;
@@ -494,6 +473,7 @@ bdi {
     margin: auto;
     margin-top: 2em;
 }
+
 .woocommerce a.button,
 .back {
     background-color: #546553;
@@ -621,7 +601,6 @@ bdi {
     }
 
     .widget2 {
-
         max-width: 400px;
         margin: auto;
         text-align: left;
@@ -645,7 +624,6 @@ bdi {
     }
 
     .footh31 {
-
         width: 100%;
     }
 
@@ -710,10 +688,8 @@ bdi {
 
     .mobile {
         float: right;
-
     }
 
-    /*meny*/
     .navbar {
         position: fixed;
         top: 0;
@@ -747,7 +723,6 @@ bdi {
         font-family: 'Lato', sans-serif;
         font-size: 1.4rem;
         text-transform: uppercase;
-
     }
 
     ul li a:hover,
@@ -763,7 +738,6 @@ bdi {
         text-decoration: underline;
     }
 
-    /* mobilmeny med rotation vid nedfällning av meny */
     .lineone,
     .linetwo,
     .linethree {
@@ -802,7 +776,6 @@ bdi {
         text-align: center;
     }
 
-    /*nyhetsartikel-bild*/
     .newsarticle img {
         width: 100%;
         min-width: 100%;
@@ -810,7 +783,6 @@ bdi {
         margin: auto;
     }
 
-    /* wp element */
     .blocks-gallery-item {
         width: 100%;
         min-width: 100%;
@@ -909,7 +881,6 @@ bdi {
 
     .blocks-gallery-grid {
         width: 100%;
-
     }
 
     article {
@@ -920,8 +891,6 @@ bdi {
         margin-bottom: 1em;
     }
 
-
-    /* styling för templates */
     .grids {
         margin-top: 2em;
     }
@@ -939,7 +908,6 @@ bdi {
     .newsh3 {
         font-family: 'Playfair Display', serif;
         margin-bottom: 0.5em;
-
     }
 
     .sidebar {
@@ -1079,7 +1047,6 @@ bdi {
         margin-left: 1px;
     }
 
-    /*styling för länk besökare befinner sig på */
     .current_page_item,
     .current-menu-item,
     .current {
@@ -1132,11 +1099,9 @@ bdi {
         margin-left: 0.65em;
     }
 
-    /* wp-element*/
     .wp-block-image,
     .wp-block-image img {
         width: 100%;
-        /*min-width: 70%; */
         height: 100%;
         min-height: 70%;
         max-width: 500px;
@@ -1145,7 +1110,6 @@ bdi {
 
     .wp-block-column {
         max-width: 500px;
-
     }
 
     .wp-block-columns {
@@ -1160,7 +1124,6 @@ bdi {
         margin: auto;
         padding-left: 50px;
         background: transparent;
-
     }
 
     .readmore {
@@ -1171,7 +1134,6 @@ bdi {
         max-width: 100px;
         padding: 0.5em;
         margin: auto;
-
         margin-bottom: 0.5em;
         border-radius: 10px;
         text-align: center;
@@ -1185,7 +1147,6 @@ bdi {
         margin-top: 1em;
         margin-bottom: 1em;
     }
-
 
     .date {
         font-family: 'Lato', Sans-serif;
@@ -1210,7 +1171,6 @@ bdi {
         font-family: 'Lato', Sans-serif;
     }
 
-    /* Style the submit button with a specific background color etc */
     input[type=submit] {
         color: white;
         font-family: 'Lato', Sans-serif;
@@ -1225,11 +1185,11 @@ bdi {
     .button {
         width: 87%;
     }
+
     .footermiddle {
         display: grid;
         grid-template-columns: 1fr 1fr;
         column-gap: 2em;
-
         max-width: 800px;
         margin: auto;
     }
@@ -1257,7 +1217,6 @@ bdi {
         width: 100%;
     }
 
-    /*styling för templates*/
     .grids {
         width: 100%;
         display: grid;
@@ -1274,10 +1233,8 @@ bdi {
     }
 
     .newsgrid {
-
         display: grid;
         grid-template-columns: 2fr 1fr;
-
         column-gap: 2em;
         padding-left: 3em;
         padding-right: 3em;
@@ -1338,7 +1295,6 @@ bdi {
         max-width: 400px;
         height: auto;
         margin-left: 20%;
-
     }
 
     .centerwidget .wp-block-columns {
@@ -1392,9 +1348,7 @@ bdi {
     textarea,
     input[type=submit],
     label {
-
         margin-left: -4em;
-
     }
 
 }

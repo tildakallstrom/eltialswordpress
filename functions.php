@@ -3,8 +3,6 @@
 Template name Eltials
 @package Eltials
 */
-/* registrera meny */
-
 add_action('init', 'register_my_menus');
 
 function register_my_menus()
@@ -13,9 +11,6 @@ function register_my_menus()
         'main-menu' => __('Huvudmeny')
     ));
 }
-
-/*aktivera stöd för dynamisk header*/
-
 $args = array(
     'width' => 1760,
     'height' => 536,
@@ -24,11 +19,6 @@ $args = array(
 );
 
 add_theme_support('custom-header', $args);
-
-/* aktivera stöd för thumbnails */
-
-
-/* Custom sizes */
 add_image_size('notis-thumb', 80, 80, true);
 add_image_size('notis-wide', 960, 240, array('center', 'center'));
 add_image_size('notis-hero', 300, 300, false);
@@ -38,12 +28,8 @@ add_image_size('mid_size', 600);
 add_image_size('lrg_size', 1200);
 add_image_size('sup_size', 2400);
 
-
-// aktivera widget-area
-
 function new_sidebar_widget_init()
 {
-
     register_sidebar(array(
         'id' => 'LeftHeader',
         'name' => 'LeftHeader',
@@ -112,20 +98,18 @@ add_filter('render_block', function ($block_content, $block) {
     if ($block['blockName'] === 'core/group') {
         return $block_content;
     }
-
     return wp_render_layout_support_flag($block_content, $block);
 }, 10, 2);
+
 function eltials_remove_dynamic_css()
 {
     remove_all_filters('eltials/frontend/dynamic_css');
     remove_all_filters('eltials/frontend/woocommerce/dynamic_css');
-
     remove_all_filters('eltials/frontend/pro_dynamic_css');
     remove_all_filters('eltials/frontend/woocommerce/pro_dynamic_css');
 }
 add_action('wp_enqueue_scripts', 'eltials_remove_dynamic_css', 0);
 
-/* read more link */
 function eltials_excerpt_more($link)
 {
     if (is_admin()) {

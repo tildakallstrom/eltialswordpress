@@ -6,15 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="<?php bloginfo('description'); ?>">
   <title><?php bloginfo('name'); ?></title>
-
   <link rel="shortcut icon" href="bilder/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" href="bilder/logo1.png">
-
   <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>">
 
-
   <?php wp_head(); ?>
-
   <script language="javascript">
     var img = document.createElement('script');
     img.setAttribute('async', '');
@@ -27,37 +23,25 @@
   <header>
     <div class="headergrid">
       <div class="left">
-
         <div class="logo">
           <?php
-
           if (dynamic_sidebar('LeftHeader')) : endif;
           ?>
         </div>
       </div>
-
-
       <div class="right">
-
         <div class="mobile">
           <div class="ham" id="hamburger" onclick="hamburgermenu(this)">
             <div class="lineone"></div>
             <div class="linetwo"></div>
             <div class="linethree"></div>
           </div>
-          <!-- mobilmenyns navigering -->
         </div>
 
         <nav class="navbar" id="nav">
           <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
         </nav>
-
-
       </div>
     </div>
 
   </header>
-  <!--  <img src="<?php //header_image(); 
-                  ?>" height="<?php //echo get_custom_header()->height; 
-                                                      ?>" width="<?php //echo get_custom_header()->width; 
-                                                                                                            ?>" alt=""> -->
